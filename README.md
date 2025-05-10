@@ -1,21 +1,20 @@
 # bcog200-final
 
-1. I plan to make a memory game that shows different types of stimuli to see which type of stimuli is easier to remember. This can include photos, words, colors, etc. These will be sectioned off by type of stimuli and there will be time inbetween to refresh memory. There will then be a results screen showing the data and a conclusion based on that data.
+1. I plan to make a recipie book that stores recipies locally and allows for importing of already made recipies through JSON files.
 2.
-a. Function to make a visual field and randomize which stimuli to show.
+a. Function to make a new recipie.
 
-b. Function to take user input and store those inputs.
+b. Function to list all recipies/descriptions of recipies.
 
-c. Function to print and visualize analyzed data. 
+c. Function to load in already made recipies through JSON file.
 
 
-This program will test your memory and if different types and styles of stimuli are easier or harder to remember. It will then give you an analysis based on 
-your responses and score during the test. 
+This program will allow you to make your own recipies with steps and ingredients and store them locally while also being able to load in already made recipies.
 Some function names could include:
-load_images
-show_instructions
-create_window 
-create_labels
-(all above would take self as parameters and are all to make the gui)
-some use cases include testing different kinds of stumuli with memory while having a consistent system of data analysis. 
-The program can take in user preference about how the test should be structured/how many types/how many stimuli will be shown
+save_recipies
+create_recipie
+load_recipies
+view_recipie
+(all above would not need any parameters as there would be text prompts for all additional information)
+some use cases include serving as a easy way to enter information while getting a specific data structure as an output.
+The program can take in user input in an order clearly stated to the person running the code and JSON files are necessary for the program to read.
